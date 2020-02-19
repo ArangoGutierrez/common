@@ -71,7 +71,7 @@ type ContainersConfig struct {
 	ApparmorProfile string `toml:"apparmor_profile"`
 
 	// Annotation to add to all containers
-	AdditionalAnnotations []string `toml:"additional_annotations"`
+	Annotations []string `toml:"annotations"`
 
 	// CGroupManager is the CGroup Manager to use Valid values are "cgroupfs"
 	// and "systemd".
